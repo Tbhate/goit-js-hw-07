@@ -4,7 +4,7 @@ import { galleryItems } from './gallery-items.js';
 console.log(galleryItems);
 
 
-// pushing images
+/// pushing images
 
 const gallery = document.querySelector(".gallery");
 const pictureLink = document.querySelector(".gallery__link");
@@ -18,7 +18,7 @@ const markup = galleryItems
 
 gallery.insertAdjacentHTML("beforeend", markup);
 
-// lightbox
+/// lightbox 
 
 let modalGallery = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
